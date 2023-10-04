@@ -1,0 +1,18 @@
+@media screen and (max-width: 565px){
+    .big-left {
+        width: 15%;
+        background-color: red;
+    }
+    .big-right {
+        width: 85%;
+        background-color: yellow;
+    }
+}
+@media screen and (max-width: 480px) {
+    .big-left {
+        display: none;
+    }
+    .big-right {
+        width: 100%;
+    }
+}

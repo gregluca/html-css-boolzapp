@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgreen;
+}
+.big-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.big-left {
+    border: 1px solid black;
+    width: 30%;
+    height: 100vh;
+}
+.big-right {
+    border: 1px solid black;
+    width: 70%;
+    height: 100vh;
+}
