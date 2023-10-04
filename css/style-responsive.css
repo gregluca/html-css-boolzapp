@@ -1,4 +1,4 @@
-@media screen and (max-width: 565px){
+@media screen and (max-width: 990px){
     .big-left {
         width: 15%;
         background-color: red;
@@ -6,6 +6,9 @@
     .big-right {
         width: 85%;
         background-color: yellow;
+    }
+    .btn-header {
+        display: none;
     }
 }
 @media screen and (max-width: 480px) {
