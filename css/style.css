@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 .big-box {
     width: 100%;
@@ -9,18 +10,17 @@
     display: flex;
 }
 .big-left {
-    border: 1px solid black;
+    border: 1px solid rgb(177 177 177);
     width: 30%;
     height: 100vh;
 }
 .big-right {
-    border: 1px solid black;
+    border: 1px solid rgb(177 177 177);
     width: 70%;
     height: 100vh;
     background-image: url(/img/mine.jpg);
 }
 .header {
-    border: 1px solid black;
     height: 80px;
     background-color: #eaeaea;
     width: 100%;
@@ -66,4 +66,21 @@
 #mysearch {
     margin-left: 20px ;
     padding: 10px;
+}
+ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid lightgray ;
+    overflow-y: scroll;
+}
+li p {
+    color: lightgray;
+}
+.time {
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
