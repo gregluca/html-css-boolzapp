@@ -1,10 +1,9 @@
 @media screen and (max-width: 1000px){
     .big-left {
-        width: 20%;
-        background-color: red;
+        width: 100px;
     }
     .big-right {
-        width: 80%;
+        width: calc(100% - 100px);
         background-color: yellow;
     }
     .btn-header {
@@ -14,6 +13,9 @@
         display: none;
     }
     .input {
+        display: none;
+    }
+    li div {
         display: none;
     }
 }
@@ -30,4 +32,9 @@
     .input {
         display: none;
     }
+}
+@media screen and (min-width: 1000px) {
+    ul li:hover {
+        background-color:#f4f5f5 ;
+    } 
 }
