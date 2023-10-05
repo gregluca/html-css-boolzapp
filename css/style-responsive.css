@@ -51,4 +51,9 @@
     ul li:hover {
         background-color:#f4f5f5 ;
     } 
+    .write i:active {
+        color: lightskyblue;
+        border-radius: 50%;
+        
+    }
 }
