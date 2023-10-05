@@ -110,10 +110,20 @@ li p {
     right: 0;
 }
 .chat {
-    overflow-y: auto;
-    height: calc(100vh - 160px);
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+.box-chat {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.box-chat-white {
+    width: 100%;
+    display: flex;
+
 }
 .r {
     width: 500px;
@@ -121,8 +131,6 @@ li p {
     background-color: lightgreen;
     border-radius: 10px;
     border: none;
-    padding: 30px;
-    margin: 30px;
 }
 .l {
     width: 500px;
@@ -132,7 +140,10 @@ li p {
     padding: 30px;
     border: none;
     border-radius: 10px;
-    margin: 30px;
+}
+.chat-scroll {
+    height: calc(100% - 160px);
+    overflow-y: scroll;
 }
 .write {
     position: absolute;
