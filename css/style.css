@@ -12,8 +12,6 @@
 .big-left {
     border: 1px solid rgb(177 177 177);
     width: 30%;
-    height: calc(100vh -100px);
-    overflow-y: auto;
 }
 .big-right {
     border: 1px solid rgb(177 177 177);
@@ -42,7 +40,6 @@
 }
 .hero {
     background-color:#8edafc ;
-
 }
 .icon {
     border-radius: 50%;
@@ -68,17 +65,19 @@
     padding: 20px;
     background-color:rgb(250 250 250);
 }
+.box-list {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}
 #mysearch {
     margin-left: 20px ;
     padding: 10px;
 }
 ul li {
-    height: 100%;
     display: flex;
     align-items: center;
     position: relative;
     border-bottom: 1px solid lightgray ;
-    overflow-y: scroll;
 }
 li p {
     color: lightgray;
