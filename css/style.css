@@ -135,21 +135,18 @@ li p {
 .box-chat-white {
     width: 100%;
     display: flex;
-
 }
 .r {
-    width: 500px;
-    height: 150px;
+    width: 50%;
     background-color: lightgreen;
     border-radius: 10px;
     border: none;
 }
 .l {
-    width: 500px;
-    height: 150px;
+    width: 50%;
     background-color: white;
     color: black;
-    padding: 30px;
+    padding: 20px;
     border: none;
     border-radius: 10px;
 }
