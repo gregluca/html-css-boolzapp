@@ -6,9 +6,6 @@
         width: calc(100% - 100px);
         background-color: yellow;
     }
-    .btn-header {
-        display: none;
-    }
     .hero {
         display: none;
     }
@@ -21,6 +18,11 @@
     .box-list {
         height: calc(100% - 80px);
     }
+    .left .btn-header {
+        display: none;
+    }
+    
+
 }
 @media screen and (max-width: 480px) {
     .big-left {
@@ -33,6 +35,15 @@
         display: none;
     }
     .input {
+        display: none;
+    }
+    .write i {
+        display: none;
+    }
+    .write input {
+        width: 100%;
+    }
+    .btn-header {
         display: none;
     }
 }
